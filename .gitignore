@@ -1,140 +1,75 @@
-# Byte-compiled / optimized / DLL files
+# Python / Django
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
 dist/
 downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
+egg-info/
 *.egg-info/
-.installed.cfg
 *.egg
 pip-wheel-metadata/
-pip-log.txt
+*.manifest
+*.spec
 
 # Virtual environments
+.venv/
 venv/
 ENV/
 env/
-.env/
-.venv/
-venv.bak/
-env.bak/
+server/
+.env
+.env.*
+*.env
 
-# Django / Python project files
+# Django
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media/
 staticfiles/
-# If you collect static into a dedicated folder that you want tracked,
-# remove the `staticfiles/` line above or add an explicit exception.
+static/
 
-# Test, coverage, and caches
+# Test / coverage
+htmlcov/
+.pytest_cache/
 .coverage
 .coverage.*
-.cache
-.pytest_cache/
-nosetests.xml
 coverage.xml
-*,cover
-htmlcov/
+nosetests.xml
+pytest_cache/
+.cache/
+.tox/
 
-# Translations
-*.mo
-*.pot
-
-# Sphinx
-docs/_build/
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-delete-this-directory.txt
-
-# pyenv
-.python-version
-
-# Celery
-celerybeat-schedule
-
-# Jupyter
-.ipynb_checkpoints
-
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Node / Frontend
+# Node / Vite / React
 node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-dist/
-build/
-.next/
-out/
-.vite/
-.parcel-cache/
-/.cache/
+pnpm-debug.log*
 
-# Frontend build artifacts (adjust if your frontend outputs elsewhere)
-public/build/
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
-# Logs
-logs/
-*.log
+# OS junk
+._*
 
-# Secrets / environment files
-.env
-.env.*
-secrets.json
-credentials/
-
-# Database
-*.sqlite3
-*.sqlite3-journal
-
-# Docker / deployment
-*.envrc
-docker-compose.override.yml
-
-# Python bytecode
-*.pyc
-*.pyo
-*.pyd
-
-# Misc
-*.seed
-*.pid
-*.pid.lock
-
-# Pipenv
-Pipfile.lock
-
+# Backup / temp files
+*.tmp
+*.temp
+*.bak
+*.orig
